@@ -1,0 +1,29 @@
+.answer{
+    background-color: whitesmoke;
+    color: rgb(117, 115, 115);
+    border-radius: 0px 0px 2px 2px;
+    border-right:1px solid #c1b8b8;
+    border-left:1px solid #c1b8b8;
+    border-bottom:1px solid #c1b8b8;
+    display: flex;
+    padding: 15px;
+    margin:15px;
+    font-weight: 600;
+    margin-top: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:700px)
+{
+    .answer{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:700px)
+{
+    .answer{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,33 @@
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  padding: 40px;
+  margin-top: 7vw;
+  box-shadow: rgba(0,0,0,0.4) 0px 5px 15px;
+  background-color: whitesmoke;
+}
+
+p{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .questionWrapper {
+    width: 70%;
+   }
+}
+
+@media only screen and (min-width: 700px) {
+  .questionWrapper {
+    width: 40%;
+   }
+}
+
+h1{
+  text-align: center;
+}
